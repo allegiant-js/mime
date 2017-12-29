@@ -1,0 +1,32 @@
+{
+    "name": "@allegiant/mime",
+    "version": "0.2.1",
+    "description": "Simple mime library.",
+    "author": "echopoint <echopoint@tutanota.com>",
+    "contributors": [],
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/allegiant-js/mime/issues"
+    },
+    "homepage": "https://github.com/allegiant-js/mime#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/allegiant-js/mime.git"
+    },
+    "main": "index.js",
+    "engine": {
+        "node": "> 7.6"
+    },
+    "scripts": {
+        "lint": "eslint .",
+        "test": "tape test/*.js",
+        "coverage": "tap test/*.js --coverage --coverage-report=lcov"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "eslint": "^4.12.1",
+        "jsdoc": "^3.5.5",
+        "tap": "^11.0.1",
+        "tape": "^4.8.0"
+    }
+}
