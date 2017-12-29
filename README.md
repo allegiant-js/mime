@@ -3,8 +3,15 @@
 > Simple mime type library. Can be used standalone or as a module for the allegiant app framework.
 >> There be 🐲 here! The API and functionality are being cemented, anything before a 1.0.0 release is subject to change.
 
+# Installation
+
+```
+npm install @allegiant/mime --save
+```
+
+## Usage
 ```js
-const Mime = require('../index');
+const Mime = require('@allegiant/mime');
 
 var mime = new Mime();
 // Alternatively; mime = new Mime('text/plain') to specify the expected default mime type returned on type queries
