@@ -1,4 +1,4 @@
-const test = require('tape').test;
+const test = require('tap').test;
 const Mime = require('../index');
 
 const mimeHeaders = {

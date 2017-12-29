@@ -19,15 +19,14 @@
     },
     "scripts": {
         "lint": "eslint .",
-        "test": "tape test/*.js",
-        "coverage": "tap test/*.js --coverage --coverage-report=lcov"
+        "test": "tap test/*.js",
+        "coverage": "tap test/*.js --coverage"
     },
     "dependencies": {},
     "devDependencies": {
         "coveralls": "^3.0.0",
         "eslint": "^4.12.1",
         "jsdoc": "^3.5.5",
-        "tap": "^11.0.1",
-        "tape": "^4.8.0"
+        "tap": "^11.0.1"
     }
 }
