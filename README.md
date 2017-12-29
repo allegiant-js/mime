@@ -3,6 +3,10 @@
 > Simple mime type library. Can be used standalone or as a module for the allegiant app framework.
 >> There be 🐲 here! The API and functionality are being cemented, anything before a 1.0.0 release is subject to change.
 
+[![Npm Version](https://img.shields.io/npm/v/node-git-server.svg)](https://www.npmjs.com/package/@allegiant/mime)
+[![Build Status](https://travis-ci.org/allegiant-js/mime.svg?branch=master)](https://travis-ci.org/allegiant-js/mime.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/allegiant-js/mime/badge.svg?branch=master)](https://coveralls.io/github/allegiant-js/mime?branch=master)
+
 # Installation
 
 ```
