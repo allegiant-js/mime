@@ -346,7 +346,8 @@ test('mime module', (t) => {
             defaultType: 'application/octet-stream',
             enabled: true,
             mime: slim.modules['../index'].mime,
-            bind: slim.modules['../index'].bind
+            bind: slim.modules['../index'].bind,
+            provides: 'mime'
         }
     });
     

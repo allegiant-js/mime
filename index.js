@@ -249,6 +249,7 @@ function processMimeTypes() {
 Mime.Configure = function(app, options=false) {
     var config = {
         defaultType: "application/octet-stream",
+        provides: 'mime'
     };
 
     config.enabled = (typeof options === 'boolean') ? options : 
